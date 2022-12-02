@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            
+        
+            background-image: url("restu.jpg");
+            background-color: bisque;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        h1{
+        
+            text-align: center;
+            color:rgb(198, 22, 22);
+            font-size: 50px;
+        }
+        h2{
+            text-align: left;
+            color: blueviolet;
+        }
+        h3{
+            text-align: left;
+            color: whitesmoke;
+            font-size: 30px;
+        }
+        div{
+            text-align: center;
+            font-size: 50px;
+
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px;
+            background: linear-gradient(45deg,red,black);
+            color: aliceblue;
+            border-radius: 10px;
+           
+            
+        }
+        a.hover{
+            background: linear-gradient(45deg,yellow,black);
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        p{
+            text-align:end;
+            color:rgb(251, 0, 255);
+        }
+        
+        
+    </style>
+</head>
+<body>
+
+    <h1>PARADISE RESTURANT</h1>
+    <h3>MENU</h3>
+    <div class="MENU">
+    
+    <a href="http://127.0.0.1:5500/cake.html">Cake</a>
+    <a href="http://127.0.0.1:5500/biriyani.html">Biryani</a>
+    <a href="http://127.0.0.1:5500/snacks.html">Snacks</a>
+    <p>WELCOME TO PARADISE</p>
+    
+</div>
+
+    
+
+
+
+
+
+
+    
+</body>
+</html>
